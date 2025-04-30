@@ -1,0 +1,832 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href='https://fonts.googleapis.com/css?family=Metal Mania' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        nav{
+            background-color: transparent;
+            box-shadow: none;
+        }
+        
+    </style>
+    <title>Pentakill</title>
+</head>
+<body>
+    <!-- home page -->
+    <div class="hero">
+
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="img/pentabg.mp4" type="video/mp4">
+        </video>
+        
+        <nav>
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                <i class="material-icons">menu</i>
+            </a>
+            <img src="img/5logo.png" alt="pentakill logo" class="logo hide-on-med-and-down" style="padding-top: 15px;">
+            <ul class="hide-on-med-and-down">
+                <li><a href="#rckstrs">ROCKSTARS</a></li>
+                <li><a href="#lore">LORE</a></li>
+                <li><a href="#gallery">CHAPTER III</a></li>
+                <li><a href="#credits">Credits</a></li>
+            </ul>
+            <ul class="sidenav grey darken" id="mobile-menu">
+                <img src="img/5logo.png" alt="pentakill logo" class="nav-logo">
+                <li><a href="#rckstrs">ROCKSTARS</a></li>
+                <li><a href="#lore">LORE</a></li>
+                <li><a href="#gallery">CHAPTER III</a></li>
+                <li><a href="#credits">Credits</a></li>
+            </ul>
+        </nav>
+        <div class="content" id="hmpg">
+            <h1 class="title1">Pentakill</h1>
+            <a href="#rckstrs" class="hoverable">Meet the Legends</a>
+        </div>
+    </div>
+    <div class="container" id="rckstrs">
+        <div class="center-align">
+            <img src="img/Pentakill_Logo.webp" alt="" style="padding-top: 80px;"> 
+        </div>
+    </div>
+
+    <!-- carousel/swiper -->
+    <section class="swiper mySwiper">
+
+        <div class="swiper-wrapper">
+            <h1>The legendary Rockstars</h1>
+
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="img/5yorick.jpg" alt="old-yorick-pic">
+                </div>
+
+                <div class="card__content">
+                    <span class="card_title">Bass Guitar</span>
+                    <span class="card__name">Yorick</span>
+                    <p class="card__text">Yorick was resurrected with the undying soul of heavy metal inside him for the singuler purpose of joining pentakill and melting faces with his bass guitar.</p>
+                    <a href='#yorick'class="card_btn pulse" id="yorick-skills">View more</a>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="img/5morde.jpg" alt="old-morde-pic">
+                </div>
+
+                <div class="card__content">
+                    <span class="card_title">Lead Guitarist</span>
+                    <span class="card__name">Mordekaiser</span>
+                    <p class="card__text">"The Titan" of the old world he rocks with the fury of an epic, lost in time bigger than a two-story house, his guitar overflows with heavy metal leaks rebuking the gods themselves</p>
+                    <a href="#mordekaiser"class="card_btn pulse" id="morde-skills">View more</a>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="img/52karthus.jpg" alt="old-karthus-pic">
+                </div>
+
+                <div class="card__content">
+                    <span class="card_title">Lead Vocalist</span>
+                    <span class="card__name">Karthus</span>
+                    <p class="card__text">He sings in the voice of a fallen angel made of freshly polished chrome, his vocals exploode the sun in the sky igniting the flame of metal witihn the hearts of all who hear</p>
+                    <a href="#karthus"class="card_btn pulse" id="karthus-skills">View more</a>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="img/5sona.jpg" alt="old-sona-pic">
+                </div>
+
+                <div class="card__content">
+                    <span class="card_title">Keyboard</span>
+                    <span class="card__name">Sona</span>
+                    <p class="card__text">Never tell Sona of Pentakill that keyboards aren't metal. Her instrument is filled with living barbed wire and a sonic scream loud enough to bring other lesser musical genres crashing to their knees</p>
+                    <a href="#sona"class="card_btn pulse" id="sona-skills">View more</a>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="img/5olaf.jpg" alt="old-olaf-pic">
+                </div>
+
+                <div class="card__content">
+                    <span class="card_title">Drums</span>
+                    <span class="card__name">Olaf</span>
+                    <p class="card__text">Good drummers have rhythm, huge body counts, and are cursed vikings with an insatiable desire to kill, pentakill's olaf is a legendary drummer</p>
+                    <a href="#olaf"class="card_btn pulse" id="olaf-skills">View more</a>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="img/5kayle.jpg" alt="old-kayle-pic">
+                </div>
+
+                <div class="card__content">
+                    <span class="card_title">Female Vocalist</span>
+                    <span class="card__name">Kayle</span>
+                    <p class="card__text">When pentakill needed a female vocalist the heavens parted and a literal angel of rock fell to earth taking up her "sword mic" for the enternal glory of heavy metal.</p>
+                    <a href="#kayle"class="card_btn pulse" id="kayle-skills">View more</a>
+                </div>
+            </div>
+            <h1>The legendary Rockstars</h1>
+        </div>
+    </section>
+    <!-- skill-showcase//hide/toggle -->
+    <section class="skill-showcase">
+        <section class="container section scrollspy">
+            <div id="yorick">
+                <h1 class="penyellow center-align title4 ">Yorick's Skills</h1>
+                <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                    <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                        <video controls muted class="skin-vid responsive-video">
+                            <source src="img/yorickp.mp4" type="video/mp4" style="padding: 0;">
+                        </video>
+                    </div>
+                    <div class="col s12 l6 pull-l6">
+                        <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Passive</h2>
+                        <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align">" SHEPHERD OF SOULS "</h3>
+                        <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >The Cursed Horde: Yorick can summon Mist Walkers to swarm and attack nearby enemies.</h5>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                    <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                        <video controls muted  class="skin-vid responsive-video">
+                            <source src="img/yorickq.mp4" type="video/mp4" style="top: 100px;">
+                        </video>
+                    </div>
+                    <div class="col s12 l6 pull-l6">
+                        <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">First Skill '(Q)'</h2>
+                        <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" LAST RITES "</h3>
+                        <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Yorick deals bonus damage on his next attack and heals himself. If the target dies a grave will be dug.</h5>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                    <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                        <video controls muted  class="skin-vid responsive-video">
+                            <source src="img/yorickw.mp4" type="video/mp4" style="top: 100px;">
+                        </video>
+                    </div>
+                    <div class="col s12 l6 pull-l6">
+                        <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Second Skill '(W)'</h2>
+                        <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" DARK PROCESSION "</h3>
+                        <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Yorick summons a destructible wall at target location that will block enemy movement.</h5>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                    <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                        <video controls muted  class="skin-vid responsive-video">
+                            <source src="img/yoricke.mp4" type="video/mp4" style="top: 100px;">
+                        </video>
+                    </div>
+                    <div class="col s12 l6 pull-l6">
+                        <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Third Skill '(E)'</h2>
+                        <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" MOURNING MIST "</h3>
+                        <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Yorick throws a globule of Black Mist that damages, slows and marks enemies.</h5>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                    <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                        <video controls muted  class="skin-vid responsive-video">
+                            <source src="img/yorickr.mp4" type="video/mp4" style="top: 100px;">
+                        </video>
+                    </div>
+                    <div class="col s12 l6 pull-l6">
+                        <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Ultimate '(R)'</h2>
+                        <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" EULOGY OF THE ISLES "</h3>
+                        <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Yorick summons the Maiden of the Mist that causes Yorick's attacks against the Maiden's target to deal bonus damage. The Maiden will also automatically raise Walkers from dead enemies.</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container section scrollspy">
+        <div id="mordekaiser">
+            <h1 class="penyellow center-align title4">Mordekaiser's Skills</h1>
+            <div class="row" style="padding-top: 0px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/mordep.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Passive</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" DARKNESS RISE "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Mordekaiser gains a powerful damage aura and Move Speed after landing 3 attacks or spells against champions or monsters.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/mordeq.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">First Skill '(Q)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" OBLITERATE "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Mordekaiser smashes the ground with his mace dealing damage to each enemy struck. Damage is increased when hitting a single enemy.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/mordew.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Second Skill '(W)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" INDESTRUCTIBLE "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Mordekaiser stores damage he deals and takes to create a shield. He may consume the shield to heal.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/mordee.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Third Skill '(E)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" DEATH'S GRASP "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Mordekaiser pulls all enemies in an area.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/morder.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Ultimate '(R)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" REALM OF DEATH "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Mordekaiser drags his victim to a different dimension with him and steals a portion of their stats. If he kills them, he keeps the stats until the victim respawns.</h5>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="container section scrollspy">
+        <div id="karthus">
+            <h1 class="penyellow center-align title4">Karthus's Skills</h1>
+            <div class="row" style="padding-top: 0px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/karthusp.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Passive</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" DEATH DEFIED "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Upon dying, Karthus enters a spirit form that allows him to continue casting spells.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/karthusq.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">First Skill '(Q)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" LAY WASTE "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Karthus unleashes a delayed blast at a location, dealing damage to nearby enemies. Deals increased damage to isolated enemies.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/karthusw.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                    <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Second Skill '(W)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" WALL OF PAIN "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Karthus creates a passable screen of leeching energy. Any enemy units that walk through the screen have their Move Speed and Magic Resist reduced for a period.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/karthuse.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Third Skill '(E)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" DEFILE "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Karthus passively steals energy from his victims, gaining Mana on each kill. Alternatively, Karthus can surround himself in the souls of his prey, dealing damage to nearby enemies, but quickly draining his own Mana.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/karthusr.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Ultimate '(R)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" REQUIEM "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >After channeling for 3 seconds, Karthus deals damage to all enemy champions.</h5>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="container section scrollspy">
+        <div id="sona">
+            <h1 class="penyellow center-align title4">Sona's Skills</h1>
+            <div class="row" style="padding-top: 0px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/sonap.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Passive</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" POWER CHORD "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Accelerando: Sona gains non-Ultimate ability haste permanently for her basic abilities as she uses her abilities well, up to a cap. Beyond that cap, further successful uses reduce her ultimate's remaining cooldown instead. Power Chord: Every few spell casts, Sona's next attack will deal bonus magic damage in addition to an additional effect based on what basic Ability Sona last activated.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/sonaq.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">First Skill '(Q)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" HYMN OF VALOR "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Sona plays the Hymn of Valor, sends out bolts of sound, dealing magic damage to two nearby enemies, prioritizing champions and monsters. Sona gains a temporary aura that grants allies tagged by the zone bonus damage on their next attack against enemies.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/sonaw.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                    <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Second Skill '(W)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" ARIA OF PERSEVERANCE "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Sona plays the Aria of Perseverance, sending out protective melodies, healing Sona and a nearby wounded ally. Sona gains a temporary aura that grants allies tagged by the zone a temporary shield.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/sonae.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Third Skill '(E)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" SONG OF CELERITY "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Sona plays the Song of Celerity, granting nearby allies bonus Move Speed. Sona gains a temporary aura that grants allied champions tagged by the zone bonus Move Speed.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/sonar.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Ultimate '(R)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" CRESCENDO "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Sona plays her ultimate chord, stunning enemy champions and forcing them to dance and dealing magic damage to them. Each rank reduces the base cooldown of Sona's basic abilities.
+
+                    </h5>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="container section scrollspy">
+        <div id="olaf">
+            <h1 class="penyellow center-align title4">Olaf's Skills</h1>
+            <div class="row" style="padding-top: 0px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/olafp.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Passive</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" BERSERKER RAGE "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Olaf gains Attack Speed and Life Steal based on his missing Health.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/olafq.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">First Skill '(Q)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" UNDERTOW "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Olaf throws an axe into the ground at a target location, dealing damage to enemies it passes through and reducing their Armor and Move Speed. If Olaf picks up the axe, the ability's cooldown is reset.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/olafw.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                    <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Second Skill '(W)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" TOUGH IT OUT "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Olaf's Attack Speed is increased, he reduces incoming damage, and he gains a Shield.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/olafe.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Third Skill '(E)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" RECKLESS SWING "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Olaf attacks with such force that it deals true damage to his target and himself, refunding the Health cost if he destroys the target.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/olafr.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Ultimate '(R)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" RAGNAROK "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Olaf passively gains increased armor and magic resist. He can activate this ability to become immune to disables for as long as he keeps attacking.</h5>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="container section scrollspy">
+        <div id="kayle">
+            <h1 class="penyellow center-align title4">Kayle's Skills</h1>
+            <div class="row" style="padding-top: 0px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/kaylep.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Passive</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" DIVINE ASCENT "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Kayle's attacks are empowered by the heavens as she levels up and spends skill points. Her wings are lit aflame as she progressively gains Attack Speed, Move Speed, Attack Range, and waves of fire on her attacks.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/kayleq.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">First Skill '(Q)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" RADIANT BLAST "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Kayle conjures a portal, summoning a celestial sword that pierces through enemies, slowing, damaging, and reducing the resistances of all hit.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/kaylew.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                    <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Second Skill '(W)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" CELESTIAL BLESSING "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Blessed by the divine, Kayle heals and grants Move Speed to herself and the nearest ally.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/kaylee.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Third Skill '(E)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" STARFIRE SPELLBLADE "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Passive: Kayle's celestial sword, Virtue, deals bonus magic damage to enemies she attacks. Active: Kayle's next attack smites her target with celestial fire, dealing bonus damage proportionate to their missing health.</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                    <video controls muted  class="skin-vid responsive-video">
+                        <source src="img/kayler.mp4" type="video/mp4" style="top: 100px;">
+                    </video>
+                </div>
+                <div class="col s12 l6 pull-l6">
+                    <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Ultimate '(R)'</h2>
+                    <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" DIVINE JUDGMENT "</h3>
+                    <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Kayle makes an ally invulnerable and calls upon former Aspects of Justice to purify the area around her target with a holy rain of swords.</h5>
+                </div>
+            </div>
+        </div>
+        </section> 
+    </section>           
+    <!-- yt embedding -->
+    <div class="yt-lore-page" id="lore" style="padding-bottom: 0px;">
+        <h1 class="title2" data-aos="fade-up" data-aos-duration="1000">The Lore Of Pentakill</h1>
+        <div class="video-wrapper">
+            <iframe width="860" height="515" src="https://www.youtube.com/embed/HCt9izLE1Qg?si=lfEY41OETuN_2cv5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen data-aos="zoom-in-up" data-aos-duration="1000"></iframe>
+    </div>
+    <!-- pIII GALLERY -->
+    <section class="container section scrollspy" id="gallery">
+        <div class="row" id>
+            <h1 class="title2" data-aos="fade-down" data-aos-duration="1000">PENTAKILL III: <span class="title3" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="500">THE LOST CHAPTER</span></h1>
+            <div class="col s12 l4 push-l7 offset-l1" style="padding: 0; border: 8px solid #aea16e;">
+                <img src="img/53yorick.jpg" alt="p3yorick" class="responsive-img materialboxed" data-aos="flip-right" data-aos-duration="1000">
+            </div>
+            <div class="col s12 l6 pull-l5">
+                <h1 class="title2" style="padding-bottom: 0px;padding-top: 50px;" data-aos="fade-right" data-aos-duration="1000">Yorick</h1>
+                <h3 style="margin-top: 0px;padding-top: 25px;" class="alias" data-aos="fade-left" data-aos-duration="1000">" The Loyal "</h3>
+                <h5 style="padding-top: 60px;" class="white-text cntnt" data-aos="fade-up">"All hail, Yorick, the Four-String Fanatic! He bestrides the realms of the living and the dead, and knows the fate that comes to all mortal things. It pays to beware the honorable man..."</h5>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col s12 l4"  style="padding: 0; border: 8px solid #aea16e;">
+                <img src="img/53morde.jpg" alt="p3morde" class="responsive-img materialboxed" data-aos="flip-left" data-aos-duration="1000">
+            </div>
+            <div class="col s12 l6 push l7 offset-l1">
+                <h1 class="title2" style="padding-bottom: 0px;padding-top: 50px;" data-aos="fade-left" data-aos-duration="1000">Mordekaiser</h1>
+                <h3 style="margin-top: 0px;padding-top: 25px;"class="alias" data-aos="fade-right" data-aos-duration="1000">" The Titan "</h3>
+                <h5 style="padding-top: 60px;" class="white-text cntnt" data-aos="fade-up" data-aos-duration="1000">"All hail, Mordekaiser, The Master of metal, and chosen of cacophoni! the brazen giant boast his legendary skill with the axe, for none who face its edge live to tell of it..."</h5>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col s12 l4 push-l7 offset-l1" style="padding: 0; border: 8px solid #aea16e;">
+                <img src="img/53karth.jpg" alt="p3karthus" class="responsive-img materialboxed" data-aos="flip-right" data-aos-duration="1000">
+            </div>
+            <div class="col s12 l6 pull-l5">
+                <h1 class="title2" style="padding-bottom: 0px;padding-top: 50px;" data-aos="fade-right" data-aos-duration="1000">Karthus</h1>
+                <h3 style="margin-top: 0px;padding-top: 25px;" class="alias" data-aos="fade-left" data-aos-duration="1000">" The Death Singer "</h3>
+                <h5 style="padding-top: 60px;" class="white-text cntnt" data-aos="fade-up" data-aos-duration="1000">"All hail, Karthus, the Voice of Doom, and Chosen of Perpetuum! His songs are bleak murder ballads, a bitter reminder that all things must die. Though, perhas not him?"</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4 " style="padding: 0; border: 8px solid #aea16e;">
+                <img src="img/53sona.jpg" alt="p3sona" class="responsive-img materialboxed" data-aos="flip-left" data-aos-duration="1000">
+            </div>
+            <div class="col s12 l6 push l7 offset-l1">
+                <h1 class="title2" style="padding-bottom: 0px;padding-top: 50px;" data-aos="fade-left" data-aos-duration="1000">Sona</h1>
+                <h3 style="margin-top: 0px;padding-top: 25px;"class="alias" data-aos="fade-right" data-aos-duration="1000">" The Savior "</h3>
+                <h5 style="padding-top: 60px;" class="white-text cntnt" data-aos="fade-up" data-aos-duration="1000">"All hail, Sona, The Silent Virtuoso! An artist's soul can change the world, and with the harmonious power of creation at her fingertips, she will prove that what is made can yet be unmade."</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4 push-l7 offset-l1" style="padding: 0; border: 8px solid #aea16e;">
+                <img src="img/53olaf.jpg" alt="p3olaf" class="responsive-img materialboxed" data-aos="flip-right" data-aos-duration="1000">
+            </div>
+            <div class="col s12 l6 pull-l5">
+                <h1 class="title2" style="padding-bottom: 0px;padding-top: 50px;" data-aos="fade-right" data-aos-duration="1000">Olaf</h1>
+                <h3 style="margin-top: 0px;padding-top: 25px;" class="alias" data-aos="fade-left" data-aos-duration="1000">" The Killer "</h3>
+                <h5 style="padding-top: 60px;" class="white-text cntnt" data-aos="fade-up" data-aos-duration="1000">"All hail, Olaf, The Blastbeat Barbarian, and Chosen of Stentorous! As wild as a tempest, as brutal as an earthquake, he laughs in the faces of his enemies, his pounding drumbeats shaking the very foundation of the world."</h5>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 200px;">
+            <div class="col s12 l4  " style="padding: 0; border: 8px solid #aea16e;">
+                <img src="img/53kayle.jpg" alt="p3kayle" class="responsive-img materialboxed" data-aos="flip-left" data-aos-duration="1000">
+            </div>
+            <div class="col s12 l6 push l7 offset-l1">
+                <h1 class="title2" style="padding-bottom: 0px;padding-top: 50px;" data-aos="fade-right" data-aos-duration="1000">Kayle</h1>
+                <h3 style="margin-top: 0px;padding-top: 25px;"class="alias" data-aos="fade-left" data-aos-duration="1000">" The War Queen "</h3>
+                <h5 style="padding-top: 60px;" class="white-text cntnt" data-aos="fade-up" data-aos-duration="1000">"All hail, Kayle, The Bringer of Woe! With the strength of a self-righteous angel, she claims justice and judgement soar on her wings of wrath. Surely if any can rally the warrior host of metal, it will be her."</h5>
+            </div>
+    </section>
+    <!-- parallax -->
+    <div>
+        <h1 class="title2" style="padding-bottom: 0px;" data-aos="fade-up" data-aos-duration="1000">The <span class="title3">Dissonance</span> of Pentakill</h1>
+    </div>
+    <div class="parallax-container materialboxed" style="border: 5px solid #aea16e;">
+
+        <div class="parallax ">
+            <img src="img/53viego.jpg" alt="Pentakill Viego" class="responsive-img">
+        </div>
+    </div>
+    <div class="container" style="margin-bottom: 300px;">
+        <div class="col s12 l6">
+            <h1 class="title2" style="padding-bottom: 0px;" data-aos="fade-down" data-aos-duration="1000">Viego</h1>
+            <h3 style="margin-top: 0px;padding-top: 25px;"class="alias" data-aos="fade-in" data-aos-duration="2000">" The Dissonant One "</h3>
+            <h5 style="padding-top: 60px;" class="white-text cntnt" data-aos="zoom-in" data-aos-duration="2000">"Only the broken-hearted can know the true sound of grief, that yearning for perfection that goes unheard by all other. He exists in a world of ashes and shadows, when it ought to be filled with light, and now looks beyond these grey horizons for new sounds and visions to make it so..."</h5>
+            <a href='#viego'class="card_btn pulse" id="viego-skills" style="bottom: -70;">View more</a>
+        </div>
+        <section class="container section scrollspy">
+            <div id="viego">
+                <h1 class="penyellow center-align title4" style="padding-top: 100px" 100px>Viego's Skills</h1>
+                <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                    <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                        <video controls muted class="skin-vid responsive-video">
+                            <source src="img/viegop.mp4" type="video/mp4" style="padding: 0;">
+                        </video>
+                    </div>
+                    <div class="col s12 l6 pull-l6">
+                        <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Passive</h2>
+                        <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align">" SOVEREIGN'S DOMINATION "</h3>
+                        <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Enemies who fall before Viego become wraiths. By attacking a wraith, Viego temporarily seizes control of the dead enemy's body, healing for a percentage of his target's max health and gaining access to their basic abilities and items. He replaces their Ultimate with a free cast of his own.</h5>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                    <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                        <video controls muted  class="skin-vid responsive-video">
+                            <source src="img/viegoq.mp4" type="video/mp4" style="top: 100px;">
+                        </video>
+                    </div>
+                    <div class="col s12 l6 pull-l6">
+                        <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">First Skill '(Q)'</h2>
+                        <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" BLADE OF THE RUINED KING "</h3>
+                        <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Viego's spectral blade passively deals bonus percent current Health damage On-Hit and strikes twice vs. enemies he recently hit with an Ability, stealing Health. Viego can activate this Ability to thrust his zweihander forward, impaling enemies in front of him.</h5>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                    <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                        <video controls muted  class="skin-vid responsive-video">
+                            <source src="img/viegow.mp4" type="video/mp4" style="top: 100px;">
+                        </video>
+                    </div>
+                    <div class="col s12 l6 pull-l6">
+                        <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Second Skill '(W)'</h2>
+                        <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" SPECTRAL MAW "</h3>
+                        <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Viego charges up before dashing forward, releasing a ball of concentrated Black Mist that stuns the first enemy hit.</h5>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                    <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                        <video controls muted  class="skin-vid responsive-video">
+                            <source src="img/viegoe.mp4" type="video/mp4" style="top: 100px;">
+                        </video>
+                    </div>
+                    <div class="col s12 l6 pull-l6">
+                        <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Third Skill '(E)'</h2>
+                        <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" HARROWED PATH "</h3>
+                        <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Viego commands the Black Mist to haunt and surround a piece of terrain. Viego can hide in the Mist as a wraith, gaining camouflage, Move Speed, and Attack Speed.</h5>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 0px; padding-bottom: 100px;">
+                    <div class="col s12 l4 push-l6 offset-l1" style="padding: 0; margin-top: 50px;">
+                        <video controls muted  class="skin-vid responsive-video">
+                            <source src="img/viegor.mp4" type="video/mp4" style="top: 100px;">
+                        </video>
+                    </div>
+                    <div class="col s12 l6 pull-l6">
+                        <h2  class="penyellow center-align title4" style="padding-bottom: 0px;">Ultimate '(R)'</h2>
+                        <h3 style="margin-top: 0px;padding-top: 25px;" class="alias center-align" >" HEARTBREAKER "</h3>
+                        <h5 style="padding-top: 60px;" class="white-text center-align cntnt" >Viego teleports to a nearby location and executes an enemy champion on arrival, piercing their heart and causing a destructive shockwave around them that knocks away their allies.</h5>
+                    </div>
+                </div>
+            </div>
+                </section>
+    </div>
+    <div class="yt-lore-page" id="" style="padding-bottom: 0px;">
+        <h1 class="title2" style="padding-bottom: 0;" data-aos="fade-down" data-aos-duration="1000">The Lore Of Pentakill III:</h1>
+        <h1 class="title3" style="margin-top: 0; padding-bottom: 50px;" data-aos="zoom-out" data-aos-duration="1000">The Lost Chapter</h1>
+        <div class="video-wrapper">
+            <iframe width="860" height="515" src="https://www.youtube.com/embed/O0Fd2YqJNsk?si=pzhPXhOlCoe3xigw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen data-aos="zoom-in-up" data-aos-duration="1000"></iframe>
+    </div>
+   </div>
+    <footer class="page-footer grey darken-3" style="margin-top: 150px;" id="credits">
+        <div class="container">
+            <div class="row" style="padding-top: 30px;">
+                <div class="col s12 l4 push-l7 offset-l1 " style="padding: 0; border: 5px solid #aea16e;">
+                    <img src="img/pentagnar.jpg" alt="Penakill gnar" class="responsive-img materialboxed" data-aos="zoom-out-left" data-aos-duration="1000" >
+                </div>
+                <div class="col s12 l6 pull-l5">
+                    <h1 style="padding-bottom: 0px;" data-aos="fade-down-right" data-aos-duration="1000" class="title2">Made by:</h1>
+                    <h3 style="margin-top: 0px;padding-top: 25px;"class="alias" data-aos="flip-down" data-aos-duration="1000">Superfan GNAR!</h3>
+                    <h5 style="padding-top: 60px;" class="white-text cntnt" data-aos="slide-right" data-aos-duration="1000">Actually made by: Prince Psalm C. Vivaz From CpE 1-B</h5>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">All rights reserved to 2023 &copy;Riot Games</div>
+        </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="js/jquery.js"></script>
+    <!--Compiled and minified JavaScript-->
+    <script src="js/materialize.min.js"></script>    
+<!-- swiper js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+        // hide/toggle jquery
+        $('#yorick').hide();
+        $('#mordekaiser').hide();
+        $('#karthus').hide();
+        $('#sona').hide();
+        $('#olaf').hide();
+        $('#kayle').hide();
+        $('#viego').hide();
+        $('#yorick-skills').on('click', function() {
+            $('#mordekaiser').hide();
+            $('#karthus').hide();
+            $('#sona').hide();
+            $('#olaf').hide();
+            $('#kayle').hide();
+            $('#yorick').toggle();
+            });
+        $('#morde-skills').on('click', function() {
+            $('#yorick').hide();
+            $('#karthus').hide();
+            $('#sona').hide();
+            $('#olaf').hide();
+            $('#kayle').hide();
+            $('#mordekaiser').toggle();
+            });
+        $('#karthus-skills').on('click', function() {
+            $('#yorick').hide();
+            $('#mordekaiser').hide();
+            $('#sona').hide();
+            $('#olaf').hide();
+            $('#kayle').hide();
+            $('#karthus').toggle();
+            });    
+        $('#sona-skills').on('click', function() {
+            $('#yorick').hide();
+            $('#mordekaiser').hide();
+            $('#karthus').hide();
+            $('#olaf').hide();
+            $('#kayle').hide();
+            $('#sona').toggle();
+            });
+        $('#olaf-skills').on('click', function() {
+            $('#yorick').hide();
+            $('#mordekaiser').hide();
+            $('#karthus').hide();
+            $('#sona').hide();
+            $('#kayle').hide();
+            $('#olaf').toggle();
+            });
+        $('#kayle-skills').on('click', function() {
+            $('#yorick').hide();
+            $('#mordekaiser').hide();
+            $('#karthus').hide();
+            $('#sona').hide();
+            $('#olaf').hide();
+            $('#kayle').toggle();
+            });
+        $('#viego-skills').on('click', function() {
+            $('#viego').toggle();
+            });
+        // hide/toggle jquery     
+        $('.materialboxed').materialbox();
+        $('.parallax').parallax();
+
+        // smoothScroll
+        $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+
+  
+                $('html, body').animate({
+                     scrollTop: $(hash).offset().top
+                }, 800, function(){
+
+   
+                window.location.hash = hash;
+                });
+            } 
+        });
+        $
+        });
+    
+    // swiper func
+    var script = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 300,
+            modifier: 1,
+            slideShadows: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+</script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+
+
+</html>
